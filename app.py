@@ -5,7 +5,7 @@ import cv2
 app = Flask(__name__)
 
 #camera = cv2.VideoCapture(0)
-camera = cv2.VideoCapture('rtmp://semerkandglb.mediatriple.net:1935/semerkandliveedge/semerkand2')
+camera = cv2.VideoCapture('rtsp://freja.hiof.no:1935/rtplive/definst/hessdalen02.stream')
 #camera = cv2.VideoCapture('rtsp://freja.hiof.no:1935/rtplive/_definst_/hessdalen03.stream')  # use 0 for web camera
 #  for cctv camera use rtsp://username:password@ip_address:554/user=username_password='password'_channel=channel_number_stream=0.sdp' instead of camera
 # for local webcam use cv2.VideoCapture(0)
